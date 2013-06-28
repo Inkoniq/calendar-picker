@@ -63,18 +63,6 @@ public class CalendarScroller extends ListView implements OnScrollListener,
 	private void initialize() {
 		setOnScrollListener(this);
 		validateCalendar();
-		postDelayed(new Runnable() {
-
-			@Override
-			public void run() {
-				// focus to the second item
-				if (validStartDate == null) {
-					if (calDates.size() >= 2) {
-						setSelection(1);
-					}
-				}
-			}
-		}, 100);
 	}
 
 	public void validateCalendar() {

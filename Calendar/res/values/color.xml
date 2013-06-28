@@ -5,10 +5,10 @@
     <color name="black">#FF000000</color>
     <color name="transparent">#00000000</color>
     <color name="light_transparent_black">#1E000000</color>
-    <color name="light_grey">#393939</color>
+    <color name="light_grey">#5A5A5A</color>
     <color name="grey">#ffaaa5a6</color>
     <color name="list_selected_color">#C3C3C3</color>
     <color name="transparentBlack">#CC000000</color>
-    <color name="color_divider">#3d3d3d</color>
+    <color name="color_divider">#FF1E1E1E</color>
 
 </resources>
