@@ -10,7 +10,9 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 /**
- * @author achowdhury
+ * 
+ * @author Pushpan
+ * 
  */
 public class CalDate implements Comparable<CalDate> {
 	Calendar cal;

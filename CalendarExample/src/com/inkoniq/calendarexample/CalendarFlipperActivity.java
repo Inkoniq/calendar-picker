@@ -10,6 +10,11 @@ import android.widget.TextView;
 
 import com.inkoniq.calendar.views.CalendarFlipperView;
 
+/**
+ * 
+ * @author Pushpan
+ * 
+ */
 public class CalendarFlipperActivity extends Activity implements
 		OnClickListener {
 	private CalendarFlipperView calendarView;

@@ -21,7 +21,9 @@ import com.inkoniq.calendar.views.CalendarView;
 import com.inkoniq.calendar.views.CalendarView.CalendarSelectedListener;
 
 /**
- * @author achowdhury
+ * 
+ * @author Pushpan
+ * 
  */
 public class CalanderAdapter extends BaseAdapter {
 	private Context context;

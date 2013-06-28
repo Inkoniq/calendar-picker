@@ -1,3 +1,6 @@
+/**
+ * 
+ */
 package com.inkoniq.calendar.views;
 
 import java.util.ArrayList;
@@ -24,6 +27,11 @@ import com.inkoniq.calendar.CalDate;
 import com.inkoniq.calendar.R;
 import com.inkoniq.calendar.views.CalendarView.CalendarSelectedListener;
 
+/**
+ * 
+ * @author Pushpan
+ * 
+ */
 public class CalendarFlipperView extends RelativeLayout implements
 		OnTouchListener, CalendarSelectedListener, OnClickListener {
 	public static final int ANIMATION_NONE = 0;

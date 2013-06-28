@@ -21,7 +21,9 @@ import com.inkoniq.calendar.R;
 import com.inkoniq.calendar.utils.DataUtils;
 
 /**
- * @author Anuradha
+ * 
+ * @author Pushpan
+ * 
  */
 public class CalendarView extends LinearLayout implements
 		CalenderCellView.CellClickedListener {

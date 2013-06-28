@@ -17,7 +17,8 @@ import com.inkoniq.calendar.adapter.CalanderAdapter;
 import com.inkoniq.calendar.views.CalendarView.CalendarSelectedListener;
 
 /**
- * @author achowdhury
+ * 
+ * @author Pushpan
  * 
  */
 public class CalendarScroller extends ListView implements OnScrollListener,

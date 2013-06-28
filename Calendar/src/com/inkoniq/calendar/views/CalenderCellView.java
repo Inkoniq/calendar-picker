@@ -16,9 +16,10 @@ import android.widget.TextView;
 import com.inkoniq.calendar.R;
 
 /**
- * @author Anuradha
+ * 
+ * @author Pushpan
+ * 
  */
-
 public class CalenderCellView extends LinearLayout implements OnClickListener {
 	public static final int STATE_UNAVAILABLE = 0;
 	public static final int STATE_AVAILABLE = 1;

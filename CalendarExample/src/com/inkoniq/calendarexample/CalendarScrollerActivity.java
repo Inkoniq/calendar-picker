@@ -3,7 +3,6 @@ package com.inkoniq.calendarexample;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -11,6 +10,11 @@ import android.widget.TextView;
 
 import com.inkoniq.calendar.views.CalendarScroller;
 
+/**
+ * 
+ * @author Pushpan
+ * 
+ */
 public class CalendarScrollerActivity extends Activity implements
 		OnClickListener {
 	private CalendarScroller calendarView;
