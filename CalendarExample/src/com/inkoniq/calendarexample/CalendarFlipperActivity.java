@@ -1,15 +1,14 @@
 package com.inkoniq.calendarexample;
 
-import com.inkoniq.calendar.views.CalendarFlipperView;
-
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
-import android.view.Menu;
+import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.inkoniq.calendar.views.CalendarFlipperView;
 
 public class CalendarFlipperActivity extends Activity implements
 		OnClickListener {
