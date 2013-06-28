@@ -222,6 +222,10 @@ public class CalendarScroller extends ListView implements OnScrollListener,
 		refresh();
 	}
 
+	public CalDate getStartDate() {
+		return calanderAdapter.getStartDate();
+	}
+
 	public void setStartDate(long millis) {
 		setStartDate(new CalDate(millis));
 	}

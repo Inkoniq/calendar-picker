@@ -7,7 +7,10 @@
 package com.inkoniq.calendar;
 
 import java.util.Calendar;
+import java.util.Date;
 import java.util.GregorianCalendar;
+
+import org.apache.http.impl.cookie.DateUtils;
 
 /**
  * 
@@ -183,5 +186,9 @@ public class CalDate implements Comparable<CalDate> {
 	public boolean hasSameMonth(CalDate another) {
 		return (getmonth() == another.getmonth() && getYear() == another
 				.getYear());
+	}
+
+	public String dateWithFormat(String pattern) {
+		return DateUtils.formatDate(new Date(cal.getTimeInMillis()), pattern);
 	}
 }
