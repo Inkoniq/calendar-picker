@@ -18,7 +18,7 @@ import org.apache.http.impl.cookie.DateUtils;
  * 
  */
 public class CalDate implements Comparable<CalDate> {
-	Calendar cal;
+	private Calendar cal;
 
 	public CalDate(int day, int month, int year) {
 		cal = Calendar.getInstance();
@@ -190,5 +190,23 @@ public class CalDate implements Comparable<CalDate> {
 
 	public String dateWithFormat(String pattern) {
 		return DateUtils.formatDate(new Date(cal.getTimeInMillis()), pattern);
+	}
+
+	public int typeBetween(Calendar startDate, Calendar endDate, int type) {
+		Calendar date = (Calendar) startDate.clone();
+		int typesBetween = 0;
+		while (date.before(endDate)) {
+			date.add(type, 1);
+			typesBetween++;
+		}
+		return typesBetween == 0 ? typesBetween : typesBetween - 1;
+	}
+
+	public int getDifferenceWith(CalDate laterDate, int type) {
+		return typeBetween(this.cal, laterDate.cal, type);
+	}
+
+	public int getDifferenceInDaysWith(CalDate laterDate) {
+		return typeBetween(this.cal, laterDate.cal, cal.DAY_OF_MONTH);
 	}
 }

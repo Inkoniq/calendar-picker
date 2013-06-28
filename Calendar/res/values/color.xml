@@ -5,7 +5,7 @@
     <color name="black">#FF000000</color>
     <color name="transparent">#00000000</color>
     <color name="light_transparent_black">#1E000000</color>
-    <color name="light_grey">#ffe4e0d0</color>
+    <color name="light_grey">#393939</color>
     <color name="grey">#ffaaa5a6</color>
     <color name="list_selected_color">#C3C3C3</color>
     <color name="transparentBlack">#CC000000</color>
